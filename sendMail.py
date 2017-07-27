@@ -20,7 +20,7 @@ To: %s
 MIME-Version: 1.0
 Content-type: text/html
 Subject: %s
-&s
+%s
 """ %(src, dst, sub, msg)
 	# >> Fin del montaje del correo electrónico
 	
@@ -28,7 +28,7 @@ Subject: %s
 	# Apertura del servido SMTP en el servidor de correo electrónico de origen
 	try:
 		server = smtplib.SMTP('smtp.gmail.com:587')
-		server = starttls()
+                server.starttls()
 		try:
 			# Inicio de sesión en el servidor de correo electrónico de origen.
 			server.login(src, pwd)
