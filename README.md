@@ -8,3 +8,6 @@ Este conjunto de scripts/módulos en python nos permiten comprobar cuál es la d
 Lo ideal sería programar el script principal para que se ejecute de forma automática cada X tiempo. Por ejemplo, haciendo uso de la herramienta "cron" de Linux.
 
 Podéis ver un tutorial sobre cómo hacerlo con un código similar al de este repositorio en: http://www.manusoft.es/comprobar-automaticamente-la-direccion-ip-publica-de-nuestra-raspberry-pi/
+
+
+* El envío de correo solamente es posible desde una dirección de GMail.
