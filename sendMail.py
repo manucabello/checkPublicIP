@@ -8,6 +8,8 @@
 ##                                          ##
 ##############################################
 
+
+
 # Importamos la librería necesaria para el envío de correos
 import smtplib
 
@@ -44,8 +46,7 @@ Subject: %s
 	# >> Fin del envío del correo
 
 
+
 ######################
-##                  ##
 ##  FIN DEL SCRIPT  ##
-##                  ##
 ######################

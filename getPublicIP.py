@@ -8,10 +8,17 @@
 ##                                             ##
 #################################################
 
+
+
 # Importamos la librería necesaria para hacer una consulta HTTP
 import urllib
 
 def getPublicIP():
+	# Solicitamos a 'icanhazip.com' nuestra IP pública y la devolvemos
 	return urllib.urlopen('http://icanhazip.com').read()
 
-print (getPublicIP())
+
+
+####################
+## FIN DEL SCRIPT ##
+####################
