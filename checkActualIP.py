@@ -58,5 +58,3 @@ def checkActualIP():
 ####################
 ## FIN DEL SCRIPT ##
 ####################
-
-print (checkActualIP())
