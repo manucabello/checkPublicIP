@@ -17,6 +17,8 @@ from getPublicIP import getPublicIP
 from checkActualIP import checkActualIP
 # Importamos el módulo necesario para enviar correos electrónicos
 from sendMail import sendMail
+# Importamos el módulo necesario para recibir los parámetros desde consola
+import sys
 
 # << Inicio de la definición
 
@@ -27,6 +29,12 @@ def checkPublicIP(src, pwd, dst):
 		sendMail(src, pwd, dst, "Nueva IP", getPublicIP())
 
 # >> Fin de la definición
+
+# << Inicio de la invocación
+
+checkPublicIP(sys.argv[1], sys.argv[2], sys.argv[3])
+
+# >> Fin de la invocación
 
 ####################
 ## FIN DEL SCRIPT ##
